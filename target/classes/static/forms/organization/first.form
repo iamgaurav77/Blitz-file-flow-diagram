@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "business",
+          "value": "business"
+        },
+        {
+          "label": "pac ",
+          "value": "pac "
+        },
+        {
+          "label": "campaign",
+          "value": "campaign"
+        },
+        {
+          "label": "other political entity",
+          "value": "other political entity"
+        }
+      ],
+      "label": "Select the type",
+      "type": "select",
+      "id": "Field_058cpxk",
+      "key": "type",
+      "validate": {
+        "required": true
+      },
+      "description": "Select the type"
+    }
+  ],
+  "type": "default",
+  "id": "firstDropdown"
+}

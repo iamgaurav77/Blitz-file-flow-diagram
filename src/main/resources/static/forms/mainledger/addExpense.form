@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "value": "main",
+          "label": "Main"
+        }
+      ],
+      "label": "Bank Account",
+      "type": "select",
+      "id": "Field_0l0arh5",
+      "key": "field_169m24u"
+    },
+    {
+      "label": "Expense Amount",
+      "type": "textfield",
+      "id": "Field_0rgnxjg",
+      "key": "field_0e58m0w"
+    },
+    {
+      "label": "Date Of Expense",
+      "type": "textfield",
+      "id": "Field_1nnv7mh",
+      "key": "field_17o0yhc"
+    },
+    {
+      "values": [
+        {
+          "value": "cheque",
+          "label": "Cheque"
+        },
+        {
+          "value": "cash",
+          "label": "Cash"
+        }
+      ],
+      "label": "Transaction Type",
+      "type": "select",
+      "id": "Field_1ofwdi3",
+      "key": "field_1h1erlt"
+    },
+    {
+      "label": "Purpose of disbursement",
+      "type": "textfield",
+      "id": "Field_0t9b6wf",
+      "key": "field_038m1wi"
+    },
+    {
+      "values": [
+        {
+          "label": "Submit",
+          "value": "submit"
+        },
+        {
+          "label": "Reset",
+          "value": "reset"
+        },
+        {
+          "label": "Cancel",
+          "value": "cancel"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "id": "Field_0g8qdph",
+      "key": "expenseAction"
+    }
+  ],
+  "type": "default",
+  "id": "addExpense"
+}

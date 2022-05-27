@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "First Name",
+      "type": "textfield",
+      "id": "Field_1jwi00o",
+      "key": "field_0e8gpba"
+    },
+    {
+      "label": "Last Name",
+      "type": "textfield",
+      "id": "Field_1auacw8",
+      "key": "field_02hrwed"
+    },
+    {
+      "label": "Phone  No",
+      "type": "textfield",
+      "id": "Field_1tiweu8",
+      "key": "field_0nrmr8c"
+    }
+  ],
+  "type": "default",
+  "id": "form_2"
+}

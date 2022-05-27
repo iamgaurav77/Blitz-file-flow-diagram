@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "Lender Bank Accounts",
+      "type": "text",
+      "id": "Field_1dh4c74"
+    },
+    {
+      "values": [
+        {
+          "label": "Loan",
+          "value": "loan"
+        },
+        {
+          "label": "Contribution",
+          "value": "contribution"
+        },
+        {
+          "label": "Expense",
+          "value": "expense"
+        },
+        {
+          "label": "Debt",
+          "value": "debt"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "id": "Field_01swgdz",
+      "key": "types",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "typesOfTransaction"
+}

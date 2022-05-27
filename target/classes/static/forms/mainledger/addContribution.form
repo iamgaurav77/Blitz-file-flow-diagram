@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Main",
+          "value": "main"
+        },
+        {
+          "label": "Value",
+          "value": "value"
+        }
+      ],
+      "label": "Bank Account",
+      "type": "select",
+      "id": "Field_1vvvj1h",
+      "key": "field_128n998"
+    },
+    {
+      "label": "Date Of Deposit",
+      "type": "textfield",
+      "id": "Field_1u1hk7v",
+      "key": "field_1htyj2a"
+    },
+    {
+      "values": [
+        {
+          "label": "Check",
+          "value": "check"
+        },
+        {
+          "label": "Cash",
+          "value": "cash"
+        }
+      ],
+      "label": "Transaction Type",
+      "type": "select",
+      "id": "Field_1gpv1od",
+      "key": "field_18xt9j8"
+    },
+    {
+      "label": "Deposit Memo",
+      "type": "textfield",
+      "id": "Field_1ktw7ae",
+      "key": "field_1482mm7"
+    },
+    {
+      "label": "Contribution Amount",
+      "type": "textfield",
+      "id": "Field_1kyiykj",
+      "key": "field_1ut3n77"
+    },
+    {
+      "label": "Date Of Contribution",
+      "type": "textfield",
+      "id": "Field_0zstm1o",
+      "key": "field_0dudhe0"
+    },
+    {
+      "label": "Purpose of this Contribution",
+      "type": "textfield",
+      "id": "Field_0hmg38f",
+      "key": "field_10kdz45"
+    },
+    {
+      "values": [
+        {
+          "label": "Submit",
+          "value": "submit"
+        },
+        {
+          "label": "Reset",
+          "value": "reset"
+        },
+        {
+          "value": "cancel",
+          "label": "Cancel"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "id": "Field_1sxjolr",
+      "key": "contributionAction"
+    }
+  ],
+  "type": "default",
+  "id": "addContribution"
+}

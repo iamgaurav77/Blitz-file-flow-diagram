@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "value": "main",
+          "label": "Main Ledger"
+        },
+        {
+          "value": "transaction",
+          "label": "Efile"
+        },
+        {
+          "value": "organization",
+          "label": "Organization"
+        },
+        {
+          "value": "individual",
+          "label": "Individual"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "id": "Field_15ya5yw",
+      "key": "select",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0x7av14"
+}

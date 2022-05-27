@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "Lender",
+      "type": "text",
+      "id": "Field_1yt3za2"
+    },
+    {
+      "values": [
+        {
+          "label": "Main",
+          "value": "main"
+        }
+      ],
+      "label": "Bank Accounts",
+      "type": "select",
+      "id": "Field_1a5efxy",
+      "key": "field_0y9io4d"
+    },
+    {
+      "label": "Enter Organisation / Individual",
+      "type": "textfield",
+      "id": "Field_1p304a5",
+      "key": "field_1gkv2db"
+    },
+    {
+      "label": "Date of Laon",
+      "type": "textfield",
+      "id": "Field_0tg0tnk",
+      "key": "field_1dmsrtc"
+    },
+    {
+      "action": "submit",
+      "label": "save",
+      "type": "button",
+      "id": "Field_0qwe0sw",
+      "key": "field_0c5969b"
+    },
+    {
+      "label": "PayOff Date",
+      "type": "textfield",
+      "id": "Field_0rw3w1g",
+      "key": "field_0h8oqil"
+    },
+    {
+      "label": "Loan Amount",
+      "type": "textfield",
+      "id": "Field_079dx3x",
+      "key": "field_1rzhzej"
+    },
+    {
+      "label": "Interest Rate",
+      "type": "textfield",
+      "id": "Field_1kuzs1u",
+      "key": "field_0i3cd29"
+    },
+    {
+      "values": [
+        {
+          "label": "Submit",
+          "value": "submit"
+        },
+        {
+          "label": "Reset",
+          "value": "reset"
+        },
+        {
+          "label": "Cancel",
+          "value": "cancel"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "id": "Field_0oymmdm",
+      "key": "field_18v9tcd"
+    }
+  ],
+  "type": "default",
+  "id": "addLoan"
+}

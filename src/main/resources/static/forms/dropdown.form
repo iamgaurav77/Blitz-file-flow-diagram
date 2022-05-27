@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Contribution",
+          "value": "contribution"
+        },
+        {
+          "value": "expense",
+          "label": "Expense"
+        }
+      ],
+      "label": "Type of Transaction",
+      "type": "select",
+      "id": "Field_19v2qzw",
+      "key": "typeOfTransactions",
+      "description": "You can select transactions from here"
+    }
+  ],
+  "type": "default",
+  "id": "dropdown"
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Creditor",
+      "type": "textfield",
+      "id": "Field_0zzcz3h",
+      "key": "field_1k5n3ri"
+    },
+    {
+      "label": "Debt Amount",
+      "type": "textfield",
+      "id": "Field_1qb82df",
+      "key": "field_1erb2c0"
+    },
+    {
+      "label": "Date Incurred",
+      "type": "textfield",
+      "id": "Field_1yzudct",
+      "key": "field_0u5r64z"
+    },
+    {
+      "label": "Debt Description",
+      "type": "textfield",
+      "id": "Field_0q3prei",
+      "key": "field_0d2l4js"
+    },
+    {
+      "values": [
+        {
+          "label": "Submit",
+          "value": "submit"
+        },
+        {
+          "label": "Reset",
+          "value": "reset"
+        },
+        {
+          "label": "Cancel",
+          "value": "cancel"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "id": "Field_1xuris9",
+      "key": "debtAction"
+    }
+  ],
+  "type": "default",
+  "id": "addDebt"
+}

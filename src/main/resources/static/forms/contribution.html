@@ -1,0 +1,45 @@
+<!--
+You can use this form through Camunda Tasklist
+by setting the formKey of a BPMN User Task to:
+embedded:/forms/contribution.html
+-->
+
+<form name="taskForm" class="form-horizontal" role="form">
+
+  <!-- read-only field -->
+  <div class="form-group">
+    <label for="contriamount" class="col-sm-2 control-label">Contribution Amount</label>
+    <div class="col-sm-10">
+      <input type="number"
+             name="contriamount"
+             cam-variable-name="contriamount"
+             cam-variable-type="Double"
+             min="0"
+             class="form-control" />      
+    </div>
+  </div>
+  
+ <div class="form-group">
+    <label for="csv" class="col-sm-2 control-label">Want CSV file </label>
+    <div class="col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"
+                 name="csv"
+                 cam-variable-name="csv"
+                 cam-variable-type="Boolean"
+                 checked="checked"
+                 class="form-control" />
+        </label>
+      </div>
+    </div>
+  </div>
+  
+ 
+
+  
+
+  <script cam-script type="text/form-script">
+  // custom JavaScript goes here
+  </script>
+</form>
